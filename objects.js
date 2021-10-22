@@ -80,38 +80,38 @@
 
 
 // ACTIVITY 3
-// let foodPrice = 0;
-// let drinkPrice = 0;
+let foodPrice = 0;
+let drinkPrice = 0;
 
-// let coffeeShop = {
-//     branch: "Nottingham",
-//     drinksWithPrices: [
-//         ["cappuccino", 2.50],
-//         ["latte", 2.00],
-//         ["tea", 1.00]
-//     ],
-//     foodWithPrices: [
-//         ["sandwich", 1.50],
-//         ["cookie", 1.00],
-//         ["baguette", 3.50]
-//     ],
-//     drinksOrdered(drinkChoice){
-//         for(i = 0; i < this.drinksWithPrices.length; i++) {
-//             if (i == drinkChoice) {
-//                 drinkPrice = this.drinksWithPrices[i][1];
-//         return `Your ${this.drinksWithPrices[i][0]} costs £${this.drinksWithPrices[i][1].toFixed(2)} and `
-//             }
-//         }
-//     },
-//     foodOrdered(foodChoice){
-//         for(i = 0; i < this.foodWithPrices.length; i++) {
-//             if (i == foodChoice) {
-//                 foodPrice = this.foodWithPrices[i][1];
-//         return `your ${this.foodWithPrices[i][0]} costs £${this.foodWithPrices[i][1].toFixed(2)}.`
-//             }
-//         }
-//     }
-// }
+let coffeeShop = {
+    branch: "Nottingham",
+    drinksWithPrices: [
+        ["cappuccino", 2.50],
+        ["latte", 2.00],
+        ["tea", 1.00]
+    ],
+    foodWithPrices: [
+        ["sandwich", 1.50],
+        ["cookie", 1.00],
+        ["baguette", 3.50]
+    ],
+    drinksOrdered(drinkChoice){
+        for(i = 0; i < this.drinksWithPrices.length; i++) {
+            if (i == drinkChoice) {
+                drinkPrice = this.drinksWithPrices[i][1];
+        return `Your ${this.drinksWithPrices[i][0]} costs £${this.drinksWithPrices[i][1].toFixed(2)} and `
+            }
+        }
+    },
+    foodOrdered(foodChoice){
+        for(i = 0; i < this.foodWithPrices.length; i++) {
+            if (i == foodChoice) {
+                foodPrice = this.foodWithPrices[i][1];
+        return `your ${this.foodWithPrices[i][0]} costs £${this.foodWithPrices[i][1].toFixed(2)}.`
+            }
+        }
+    }
+}
     
-// console.log(coffeeShop.drinksOrdered(2) + coffeeShop.foodOrdered(0) + " Your total is £" + (foodPrice + drinkPrice).toFixed(2) + ".");
+console.log(coffeeShop.drinksOrdered(2) + coffeeShop.foodOrdered(0) + " Your total is £" + (foodPrice + drinkPrice).toFixed(2) + ".");
 

@@ -139,14 +139,14 @@
 
 
 // TASK 6
-// let bobFollowers = ["Charlie", "Jake", "David", "Jonathan"];
-// let annFollowers = ["Jonathan", "Jake", "Ashley", "Rebecca"];
+let bobFollowers = ["Charlie", "Jake", "David", "Jonathan"];
+let annFollowers = ["Jonathan", "Jake", "Ashley", "Rebecca"];
 
-// for(let i = 0; i < bobFollowers.length; i++) {
-//     for(let j = 0; j < annFollowers.length; j++) {
-//         if (bobFollowers[i] == annFollowers[j]) {
-//             console.log(`${bobFollowers[i]}`)
-//         }
-//     }
-// }
+for(let i = 0; i < bobFollowers.length; i++) {
+    for(let j = 0; j < annFollowers.length; j++) {
+        if (bobFollowers[i] == annFollowers[j]) {
+            console.log(`${bobFollowers[i]}`)
+        }
+    }
+}
 

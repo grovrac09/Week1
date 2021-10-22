@@ -23,12 +23,12 @@
 //     console.log("What? It's not raining?!")
 // }
 
-// let age = 62;
+let age = 62;
 
-// if (age < 18) {
-//   console.log(`£8`)
-// } else if (age >= 18 && age < 60) {
-//   console.log(`£10.95`)
-// } else if (age >= 60) {
-//   console.log(`£7.50`)
-// }
+if (age < 18) {
+  console.log(`£8`)
+} else if (age >= 18 && age < 60) {
+  console.log(`£10.95`)
+} else if (age >= 60) {
+  console.log(`£7.50`)
+}

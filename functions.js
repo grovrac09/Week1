@@ -92,16 +92,16 @@
 
 
 // ACTIVITY 3
-// let pin = 1234
-// let balance = 200
-// let amount = 20
+let pin = 1234
+let balance = 200
+let amount = 20
 
-// if (pin === 1234 && balance >= amount) {
-//     console.log(`Here is your £${amount} as requested.`);
-// } else if (pin != 1234) {
-//     console.log("Wrong PIN entered.")
-// } else if (balance < amount) {
-//     console.log("Insufficient funds available.")
-// }
+if (pin === 1234 && balance >= amount) {
+    console.log(`Here is your £${amount} as requested.`);
+} else if (pin != 1234) {
+    console.log("Wrong PIN entered.")
+} else if (balance < amount) {
+    console.log("Insufficient funds available.")
+}
 
 
